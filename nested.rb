@@ -37,6 +37,7 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+		 programmer_hash[:alan_kay] [:known_for]
 end
 
 alan_kay_is_known_for
@@ -82,6 +83,12 @@ def adding_matz
           :languages => ["C"]
         }
      }
+
+		 programmer_hash[:yukihiro_matsumoto] = {
+    known_for: "Ruby",
+    languages:
+      ["LISP", "C"]
+    }
 
     programmer_hash
 end
